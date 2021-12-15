@@ -90,13 +90,25 @@ body {
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-normal);
   text-transform: uppercase;
-  padding: 2px 6px;
+  padding:  6px;
+  margin-right: -5px;
+}
+.a5{
+  margin-right:35px;
 }
 
+.a7{
+  margin-right:20px;
+}
+
+.navigation{
+  margin-right: 5px;
+}
 .navbar-brand:hover,
 .nav-item .nav-link.active,
 .nav-item .nav-link:hover {
   color: var(--primary-color);
+  margin-left: 20px;
 }
 
 /* ******************************* */
@@ -346,6 +358,11 @@ strong {
   background-repeat: no-repeat;
 }
 
+.aboutpage{
+  margin-top: 300px;
+}
+
+
 .home_about_text {
   padding-top: 35px;
 }
@@ -365,6 +382,7 @@ strong {
   background-size: 3px; */
   float: left;
   margin-top: -700px;
+  margin-left: 140px;
   position: relative; 
   vertical-align: top;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -373,9 +391,30 @@ strong {
   /* width= 400 px;
   height=340 px; */
   position: relative;
-  margin-top: -1020px;
+  margin-top: -1200px;
+  margin-right: 80px;
   right: -806px;
 
+}
+
+.space{
+  margin-top: 45px;
+  margin-left: 100px;
+  border-style: solid;
+  border-width: 800px;
+  border: 2px solid #0c0c0c;
+  padding: 20px;
+  height: 350px;
+}
+
+
+
+.equal{
+ margin-top: 100px;
+}
+
+.galleryspace{
+  margin-top: -150px;
 }
 
 .home_about_text span {
@@ -400,14 +439,18 @@ strong {
   padding-top: 15px;
   margin-bottom: 30px;
 }
+.mb-4{
+  margin-left:-100px;
+  margin-top: -100px;
+}
 
-.ftco-no-pt {
+/* .ftco-no-pt {
   padding-top: 0 !important;
 }
 
 .ftco-no-pb {
   padding-bottom: 0 !important;
-}
+} */
 
 .no-gutters {
   margin-right: 0;
@@ -587,7 +630,31 @@ strong {
   min-width: 100%;
   min-height: 100%;
 }
+.remote{
+  margin-top:100px;
+  margin-left:100px;
+  font-size: 105px;
 
+}
+.forest{
+  margin-top:100px;
+ margin-left:-100px;
+ margin-bottom: 18px;
+}
+.tree{
+margin-left:370px;
+margin-top: -550px;
+margin-bottom: 128px;
+}
+
+.jungle{
+margin-left:880px;
+margin-top: -520px;
+margin-bottom: 360px;
+}
+ .myforest{
+   margin-left:-100px;
+ }
 .card-2 {
   position: relative;
   display: inline-grid;
@@ -772,7 +839,7 @@ strong {
   box-shadow: 0 4px 20px 3px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   text-align: center;
-  transition-duration: 500ms;
+  /* transition-duration: 500ms; */
   background-color: #ffffff;
 }
 .text-center {
